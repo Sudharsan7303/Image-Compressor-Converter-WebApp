@@ -10,15 +10,15 @@
     <div class="mb-5">
         <form action="{{url_for('compressor')}}" method="post" enctype = 'multipart/form-data'>
             
-            <label class="btn btn-primary btn-lg px-4 p-3 my-2"><input type="file" id="img" name="img" accept="image/*" ></label>
-            <select name="quality" id="quality" class="btn btn-primary btn-lg px-4 p-4 ms-3 my-2">                
-                <option class="btn btn-secondary btn-lg px-4 p-3" value="" disabled selected >Select Quality</option>
-                <option value="75" class="btn btn-info btn-lg px-4 p-3">75 % of Original Quality</option>
-                <option value="50" class="btn btn-info btn-lg px-4 p-3">50 % of Original Quality</option>
-                <option value="25" class="btn btn-info btn-lg px-4 p-3">25 % of Original Quality</option>
+            <label class="btn btn-primary btn-md px-4 p-3 my-2"><input type="file" id="img" name="img" accept="image/*" ></label>
+            <select name="quality" id="quality" class="btn btn-primary btn-md px-4 p-4 ms-3 my-2">                
+                <option class="btn btn-secondary btn-md px-4 p-3" value="" disabled selected >Select Quality</option>
+                <option value="75" class="btn btn-info btn-md px-4 p-3">75 % of Original Quality</option>
+                <option value="50" class="btn btn-info btn-md px-4 p-3">50 % of Original Quality</option>
+                <option value="25" class="btn btn-info btn-md px-4 p-3">25 % of Original Quality</option>
             </select>
             <div class="container m-3">
-            <input type="submit" class="btn btn-success btn-lg px-4 p-3 ms-3" value="Compress and Download Image">
+            <input type="submit" class="btn btn-success btn-md px-4 p-3 ms-3" value="Compress and Download Image">
 
             </div>
         </form>
